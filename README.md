@@ -8,6 +8,10 @@ Static site served by GitHub Pages at https://moonfleck-labs.github.io
 - `.nojekyll` — serve files as they are, without Jekyll
 - `<app-slug>/index.html` — one page per app, once it has store assets
 
+## Languages
+
+English, German and Polish, matching the games. English lives at the root (so `privacy.html`, the URL the games and Google Play link to, never moves); translations sit in `de/` and `pl/` with the same file names. Every page carries the `EN · DE · PL` switcher and `hreflang` links to all three versions, so a new page or a change to one page means updating all three. The English privacy policy is the binding one; the translations say so.
+
 ## Brand assets
 
 The logos are copies from the Moonfleck Labs brand set (`moonfleck-labs-brand`). Don't edit them here: change the brand set, then copy them again.

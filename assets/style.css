@@ -78,3 +78,26 @@ footer nav { display: flex; gap: 20px; justify-content: center; margin-bottom: 8
 .policy h2 { font-size: 20px; margin: 40px 0 8px; }
 .policy .meta { color: var(--grey); margin: 0 0 32px; }
 .policy li { margin-bottom: 6px; }
+
+/* Language switcher */
+.lang {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 16px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+.lang a {
+  color: var(--grey);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.lang a:hover { color: var(--white); }
+.lang a[aria-current="page"] { color: var(--gold); }
+
+.policy .note { color: var(--grey); font-size: 14px; }
